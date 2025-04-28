@@ -10,7 +10,7 @@ class CaptchaGenerator:
         self,
         font_path: str = "SourceHanSansCN.otf",
         text_num: int = 4,
-        pic_size: Tuple[int, int] = (120, 50),  # 稍大尺寸
+        pic_size: Tuple[int, int] = (360, 100),  # 稍大尺寸
         bg_color: Tuple[int, int, int] = (255, 255, 255),
         text_color: Tuple[int, int, int] = (random.randint(0, 100), random.randint(0, 100), random.randint(100, 255)),
         line_color: Tuple[int, int, int] = (random.randint(100, 255), random.randint(0, 100), random.randint(0, 100)),
